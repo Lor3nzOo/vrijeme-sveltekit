@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes ldio-yjw3p56rlh9 {
+    0% { transform: translate(-50%,-50%) rotate(0deg); }
+    100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+.ldio-yjw3p56rlh9 div {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    border: 15px solid #0097ff;
+    border-top-color: transparent;
+    border-radius: 50%;
+}
+.ldio-yjw3p56rlh9 div {
+    animation: ldio-yjw3p56rlh9 1s linear infinite;
+    top: 100px;
+    left: 100px
+}
+.loadingio-spinner-rolling-dvf2ugegcdb {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: none;
+}
+.ldio-yjw3p56rlh9 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+}
+.ldio-yjw3p56rlh9 div { box-sizing: content-box; }
