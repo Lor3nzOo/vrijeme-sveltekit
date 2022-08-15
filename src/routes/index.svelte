@@ -24,7 +24,6 @@
         try {
             const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=909b25942a91dd2c10a0a46a8e77451a&lang=hr&units=metric`)
             data = res.data
-            console.log(res.data)
             timeValue()
             setInterval(timeValue, 1000)
             switch (new Date().getDay()) {
